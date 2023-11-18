@@ -16,11 +16,20 @@ body{
     height: 100px;
     color: #ff004f;
 }
+
+.container h1{
+    text-align: center;
+    color: #fff;    
+}
+.container h1:hover{
+    color: #ff004f;
+}
+
 .work-list{
         display: flex;
         grid-template-columns: repeat(autofix, minmax(250px, 150fr));
         grid-gap: 40px;
-        margin-top: 50px;
+        margin: 50px  50px 50px 50px;
 }
 .work{
     border-radius: 10px;
