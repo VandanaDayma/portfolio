@@ -12,7 +12,7 @@
 .header{
     width: 100%;
     height: 100vh;
-    background-image: url(https://img.freepik.com/free-photo/brunette-business-woman-holding-laptop-working-with-data_549566-182.jpg?w=740&t=st=1696402404~exp=1696403004~hmac=0895c9d8fee416edcc05faea7cae9f3190e69c97ef8e75b653f07b6a5de56efd);
+    background-image: url(https://img.freepik.com/free-photo/serious-businesswoman-using-laptop-dark-office_74855-3075.jpg?w=900&t=st=1700375413~exp=1700376013~hmac=28e18041dba1c8e1e6dd62bc60dd0aeabb99816b29ca733a9cd50747d6a884e1);
     background-size: cover;
 }
 .container{
@@ -62,4 +62,10 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color: #ff004f;
+}
+.header-text h1{
+    color: #fff;    
+}
+.header-text p{
+ color: #fff;    
 }
