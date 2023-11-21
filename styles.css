@@ -69,3 +69,55 @@ nav ul li a:hover::after{
 .header-text p{
  color: #fff;    
 }
+
+
+/* media @media only screen and (max-width: 600px) {
+  body {
+   background-image: url(https://w.forfun.com/fetch/0d/0de8b652b7177ae188aab10484adc445.jpeg?h=900&r=0.5);
+  }
+/* } */
+
+.nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        background-image: url(https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=600);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    
+    .nav fas{
+        display: block;
+        font-size: 25px;
+    }
+
+    .nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    .nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    .nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+}
+
+
