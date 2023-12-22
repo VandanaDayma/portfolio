@@ -70,14 +70,9 @@ nav ul li a:hover::after{
  color: #fff;    
 }
 
+/* ----------------media---------------- */
 
-/* media @media only screen and (max-width: 600px) {
-  body {
-   background-image: url(https://w.forfun.com/fetch/0d/0de8b652b7177ae188aab10484adc445.jpeg?h=900&r=0.5);
-  }
-/* } */
-
-.nav .fas{
+nav .fas{
     display: none;
 }
 
@@ -93,19 +88,13 @@ nav ul li a:hover::after{
         font-size: 30px;
     }
     
-    .nav fas{
+    .nav .fas{
         display: block;
         font-size: 25px;
     }
 
-    .nav ul{
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
+    nav ul li{
+        color: #ff004f;
     }
 
     .nav ul li{
