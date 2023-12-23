@@ -121,3 +121,126 @@ body{
 }*/
 
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans sarif;
+    box-sizing: border-box;
+}
+.body{
+    background: #080808;
+    color: #fff;
+ }
+
+ .contact{
+    height: 100vh;
+    background: #080808;
+    display: flex;
+ }
+
+ .contact-left{
+    height: 100%;
+    width: 48%;
+ }
+
+.contact-right{
+    height: 100%;
+    width: 50%;
+}
+
+.fa-location-dot{
+    padding: 35px;
+    height: 50px;
+    color: #fff;
+    margin-left: 145px;
+    margin-top: 40px;
+}
+
+.fa-envelope{
+    padding: 35px;
+    color: #fff;
+    margin-left: 145px;
+}
+
+.contact-left>span{
+    color: #fff;
+    /* margin-left: 10px; */
+}
+
+.contact-left i:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.contact-left>.one{
+    height: 1px;
+    width: 250px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.contact-left>.two{
+    height: 1px;
+    width: 250px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.fa-github{
+    color: #fff;
+    margin-left: 200px;
+    
+}
+
+.fa-linkedin{
+    color: #fff;
+    padding: 50px;
+    margin: auto;
+}
+
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #ff004f;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
