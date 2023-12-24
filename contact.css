@@ -128,41 +128,43 @@ textarea {
     }
 
     .contact-left{
-        height: 49%;
+        height: 30%;
         width: 100%;
+        /* border: 1px solid red; */
      }
   
      .contact-right{
-        height: 40%;
+        height: 30%;
         width: 100%;
         bottom: 100px;
         position: fixed;
+        /* border: 1px solid red; */
     }
  
     .fa-location-dot{
-        padding: 15px;
-        height: 50px;
+        padding: 10px;
+        height: 30px;
         color: #fff;
         margin-left: 200px;
-        margin-top: 100px;
+        margin-top: 1px;
     }
 
     .fa-envelope{
-        padding: 15px;
+        padding: 10px;
         color: #fff;
         margin-left: 150px;
     }
   
     .fa-github{
         color: #fff;
-        margin-left: 210px;
-        padding: 40px;
+        margin-left: 180px;
+        /* padding: 10px; */
     }
 
     .fa-linkedin{
         color: #fff;
-        margin-left: 220px;
-        padding: 40px;
+        margin-left: 50px;
+        padding: 30px;
     }
 
     body { 
