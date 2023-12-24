@@ -78,7 +78,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     .header{
-        background-image: url(https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-image: url(https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?w=360&t=st=1703348683~exp=1703349283~hmac=3a8f243865d3d2caa48c6cd3f8533e8579f3f48df4ade1a6cece74e84933309f);
     }
     .header-text{
         margin-top: 100%;
@@ -93,7 +93,7 @@ nav .fas{
         font-size: 25px;
     }
 
-    nav ul li{
+    nav  ul li{
         color: #ff004f;
     }
 
