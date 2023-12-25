@@ -128,7 +128,7 @@ textarea {
     }
 
     .contact-left{
-        height: 30%;
+        height: 20%;
         width: 100%;
         /* border: 1px solid red; */
      }
@@ -136,8 +136,10 @@ textarea {
      .contact-right{
         height: 30%;
         width: 100%;
-        bottom: 100px;
-        position: fixed;
+        bottom: 50px;
+        position: ;
+        margin-top: 380px;
+        margin-left: -500px;
         /* border: 1px solid red; */
     }
  
@@ -146,7 +148,7 @@ textarea {
         height: 30px;
         color: #fff;
         margin-left: 200px;
-        margin-top: 1px;
+        margin-top: 10px;
     }
 
     .fa-envelope{
@@ -157,7 +159,8 @@ textarea {
   
     .fa-github{
         color: #fff;
-        margin-left: 180px;
+        margin-left: 150px;
+        height: 20px;
         /* padding: 10px; */
     }
 
