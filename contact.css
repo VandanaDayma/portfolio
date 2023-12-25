@@ -137,9 +137,9 @@ textarea {
         height: 30%;
         width: 100%;
         bottom: 50px;
-        position: ;
+        /* position: ; */
         margin-top: 380px;
-        margin-left: -500px;
+        margin-left: -420px;
         /* border: 1px solid red; */
     }
  
@@ -147,19 +147,19 @@ textarea {
         padding: 10px;
         height: 30px;
         color: #fff;
-        margin-left: 200px;
-        margin-top: 10px;
+        margin-left: 140px;
+        margin-top: 30px;
     }
 
     .fa-envelope{
         padding: 10px;
         color: #fff;
-        margin-left: 150px;
+        margin-left: 120px;
     }
   
     .fa-github{
         color: #fff;
-        margin-left: 150px;
+        margin-left: 120px;
         height: 20px;
         /* padding: 10px; */
     }
